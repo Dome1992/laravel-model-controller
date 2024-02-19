@@ -9,5 +9,5 @@ class Movie extends Model
 {
     use HasFactory;
 
-    public $timestamp = false;
+    // public $timestamp = false;
 }

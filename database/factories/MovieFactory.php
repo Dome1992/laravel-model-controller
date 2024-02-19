@@ -17,7 +17,7 @@ class MovieFactory extends Factory
     public function definition()
     {
         return [
-            'film'   => fake() -> wordes(3, true),
+            'film'   => fake() -> words(3, true),
             'regista'=> fake() -> sentence(),
         ];
     }
