@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+use App\Http\Controllers\MainController;
 
-    return view('pages.index');
-});
+//IMPORTARE LA ROTTA CHE PORTA AL MAINCONTROLLER
+Route::get('/', [MainController :: class, 'index']);
+
